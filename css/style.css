@@ -1,0 +1,181 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container {
+    max-width: 1300px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.text-opacity {
+    opacity: 0.4;
+} 
+
+.btn {
+    height: 44px;
+    border-radius: 50px;
+    padding: 0 30px;
+    border: none;
+}
+
+.btn-purple {
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.btn-pink {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+p {
+    line-height: 160%;
+}
+
+@media screen and (max-width: 960px){
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+}
+/* --------------------------------------------------- */
+
+                /* main */
+
+.wrap-main {
+    min-height: 960px;
+    background-image: url(../images/main-screen__bgc.png);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu {
+    grid-gap: 56px;
+}
+
+.timer {
+    display: flex;
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+
+.timer > div {
+    display: flex;
+    flex-direction: column;
+    width: 102px;
+    height: 112px;
+    background: #121212;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer__value {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.wrap-info {
+    width: 100%;
+    min-height: 130px;
+    background: #121212;
+}
+
+.info {
+    align-items: center;
+    flex-direction: row;
+}
+
+.info__students > div {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 30px;
+    margin-bottom: 10px;
+}
+
+.progress__info {
+    display: flex;
+    grid-gap: 30px;
+}
+
+.progress__main{
+    margin-bottom: 5px;
+}
+
+.progress__main > progress {
+    width: 714px;
+    height: 6px;
+    border: none;
+}
+
+.progress__main > progress::-webkit-progress-value {
+    background-image: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%)
+}
+
+.progress__main > progress::-webkit-progress-bar {
+    background-color: #fff;
+}
+
+.progress__value {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Computer Curses</title>
+</head>
+
+<body>
+
+    <div class="wrap wrap-main color-white">
+        <header class="header">
+            <div>
+                <a href="#"><img class="logo" src="./images/Group.svg" alt=""></a>
+            </div>
+            <div>
+                <ul class="menu wrap">
+                    <li><a href="" class="color-white">Главная</a>
+                    </li>
+                    <li><a href="" class="color-white">Курсы</a>
+                    </li>
+                    <li><a href="./page_2/index.html" class="color-white">Информация</a>
+                    </li>
+                    <li><a href="" class="color-white">Преподаватели</a>
+                    </li>
+                    <li><a href="" class="color-white">Рассылка</a>
+                    </li>
+                    <li><a href="" class="color-white">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <button class="btn btn-purple color-white">Зайти в кабинет</button>
+            </div>
+        </header>
+        <div class="wrap-timer container">
+            <h1>Первый курс <br>
+                по компьютерной сборке</h1>
+            <div class="timer">
+                <div>
+                    <span id="day" class="timer__value"></span>
+                    <span class="text-opacity">Дней</span>
+                </div>
+                <div>
+                    <span id="hour" class="timer__value"></span>
+                    <span class="text-opacity">Часов</span>
+                </div>
+                <div>
+                    <span id="minute" class="timer__value"></span>
+                    <span class="text-opacity">Минут</span>
+                </div>
+                <div>
+                    <span id="second" class="timer__value"></span>
+                    <span class="text-opacity">Секунд</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrap wrap-info">
+            <section class="container info">
+                <div>
+                    <button class="btn btn-pink color-white">Заказать курс</button>
+                </div>
+                <div class="info__students">
+                    <div>
+                        <span class="text-opacity">Учеников всего</span>
+                        <span>200</span>
+                    </div>
+                    <div>
+                        <span class="text-opacity">Успешно закончили курс</span>
+                        <span>190</span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress__info">
+                        <span class="text-opacity">Заработано учениками:</span>
+                        <span>400 000₽</span>
+                    </div>
+                    <div class="progress__main">
+                        <progress max="1000000" value="400000"></progress>
+                    </div>
+                    <div class="progress__value">
+                        <span class="text-opacity">0</span>
+                        <span class="text-opacity">1 000 000₽</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
